@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+	align-items: auto;
+	align-content: auto;
+	text-align: auto;
+	text-decoration: none;
+	display: auto;
+	background-image: url(Illustration\ design.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+	background-position: center;
+	min-width: 730px;
+}
+
+.results {
+	padding: 2rem;
+	background-color: rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur(2px);
+	font-size: 2rem;
+	font-size: auto;
+	font-family: poppins-thin;
+	margin: 1rem;
+	border-radius: .8rem;
+}
+
+#buttons {
+	margin-top: 2rem;
+	padding: auto;
+	padding-left: 1rem;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: auto;
+	height: 90vh;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+
+button {
+	display: relative;
+	margin: .4rem;
+	width: 5rem;
+	height: 6rem;
+	border: 1px solid rgba(255, 255, 255, .1);
+	background-color: rgba(255, 255, 255, .1);
+	color: #fff;
+	font-family: poppins-medium;
+	border-radius: .4rem;
+	z-index: 10;
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, .15);
+	cursor: pointer;
+}
+
+button:active {
+	background-color: rgba(255, 255, 255, .2);
+}
+
+container {
+	display: inline-block;
+	position: relative;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 1rem;
+	backdrop-filter: blur(4px);
+	height: fit-content;
+	width: fit-content;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.signs {
+	max-width: fit-content;
+	display: grid;
+	position: relative;
+}
+
+.numbers {
+	max-width: fit-content;
+	display: block;
+}
+
+#enter {
+	width: fit-content;
+	padding-left: 4.4rem;
+	padding-right: 4.4rem;
+}
+
+table {
+	width: 50rem;
+	margin: auto;
+	margin-top: 2rem;
+}
+
+td:nth-child(1) {
+	margin: auto;
+	padding-left: 10%;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+td:nth-child(2) {
+	margin: auto;
+	padding-left: 0;
+	padding-right: 10%;
+	margin-left: 0;
+}
+
+.reset {
+	background-color: rgba(0, 0, 0, .1);
+	width: 17%;
+	display: block;
+	z-index: 20;
+	margin-right: 1rem;
+}

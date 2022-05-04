@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>javaScriptCalculator</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<div class="results" id="results">Results: </div>
+	<div class="buttons" id="buttons">
+		<table>
+			<tr>
+				<td>
+					<container class="numbers">
+						<button class="button">1</button>
+						<button id="2" onclick="addTwo()">2</button>
+						<button id="3" onclick="addThree()">3</button>
+						<br>
+						<button id="4" onclick="addFour()">4</button>
+						<button id="5" onclick="addFive()">5</button>
+						<button id="6" onclick="addSix()">6</button>
+						<br>
+						<button id="7" onclick="addSeven()">7</button>
+						<button id="8" onclick="addEight()">8</button>
+						<button id="9" onclick="addNine()">9</button>
+						<br>
+						<button id="0" onclick="addZero()">0</button>
+						<button id="enter" onclick="runCalc()">enter</button>
+					</container>
+				</td>
+				<td>
+					<container class="signs">
+						<button id="add" onclick="addAddition()">+</button>
+						<button id="subtract" onclick="addSubtraction()">-</button>
+						<button id="multiplication" onclick="addMultiply()">X</button>
+						<button id="divide" onclick="addDivide()">÷</button>
+					</container>
+				</td>
+			</tr>
+		</table>
+		<button class="reset" id="reset" onclick="resetAll()">reset</button>
+	</div>
+	<script src="index.js">
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+/* main screen */
+body {
+	padding: 0;
+	align-items: auto;
+	align-content: auto;
+	text-align: auto;
+	text-decoration: none;
+	display: auto;
+	background-image: url(/Pictures/Calm\ evening\ in\ the\ mountains\ [5376×3024].jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+	background-position: center;
+	min-width: 730px;
+	font-family: poppins;
+	padding: 1rem;
+	overscroll-behavior: none;
+	margin: auto;
+}
+
+#res-txt {
+	margin-right: .5rem;
+	font-weight: lighter;
+}
+
+#display {
+	font-family: poppins;
+}
+
+.button {
+	background-color: rgba(255, 255, 255, .15);
+	padding: 1rem;
+	margin: auto;
+	width: 8.5rem;
+	height: fit-content;
+	display: relative;
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, .2);
+	border-radius: .5rem;
+	margin: .5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	position: relative;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.button:active {
+	background-color: rgba(255, 255, 255, .1);
+	cursor: none;
+}
+
+button {
+	color: white;
+}
+
+header {
+	position: fixed;
+	z-index: 100;
+}
+
+.reset-btn {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	width: auto;
+	margin-left: 15rem;
+	border-radius: .5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.results-container {
+	background-color: rgba(0, 0, 0, .6);
+	backdrop-filter: blur(2px);
+	padding: 1rem;
+	font-family: poppins;
+	margin: auto;
+	height: fit-content;
+	width: fit-content;
+	display: flex;
+	font-size: 200%;
+	border-radius: .5rem;
+	margin-right: 1rem;
+	overflow: hidden;
+}
+
+#equal {
+	background-image: linear-gradient(45deg, rgba(162, 116, 232, 0.8), rgba(184, 105, 226, 0.8),
+			rgba(190, 106, 177, 0.8));
+	font-family: poppins;
+}
+
+#equal:hover {
+	background-image: linear-gradient(45deg, rgba(121, 85, 175, 0.6), rrgba(130, 73, 161, 0.6) rgba(143, 75, 133, 0.6));
+}
+
+#equal:active {
+	background-image: linear-gradient(45deg, rgba(80, 56, 116, 0.4), rgba(98, 56, 121, 0.4),
+			rgba(104, 51, 96, 0.4));
+	font-family: poppins-bold;
+}
+
+.sign-btn {
+	padding-top: 1.575rem;
+	padding-bottom: 1.575rem;
+}
+
+.num-btn {
+	display: inline-block;
+	position: relative;
+}
+
+/* now for the buttons containers */
+
+.btn-cont {
+	margin-top: 6rem;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, .6);
+	padding: 2rem;
+	backdrop-filter: blur(2px);
+	border-radius: .5rem;
+	display: flex;
+	width: fit-content;
+}
+
+.num-cont {
+	display: table;
+	position: relative;
+	background-color: rgba(0, 0, 0, .3);
+	border-radius: .5rem;
+	padding: 1rem;
+	height: fit-content;
+}
+
+.sign-cont {
+	display: inline-block;
+	position: relative;
+	background-color: rgba(0, 0, 0, .3);
+	border-radius: .5rem;
+	padding: 1rem;
+	margin-left: 1rem;
+	height: fit-content;
+}
+
+.descriptions {
+	z-index: 4;
+	background-color: rgba(0, 0, 0, .3);
+	padding: 1rem;
+	border-radius: .5rem;
+	display: block;
+	position:absolute;
+	left: 58rem;
+	width: fit-content;
+	height: fit-content;
+	margin-left: 1rem;
+	margin-left: auto;
+	z-index: 40;
+	line-height: 5rem;
+}
+
+
+/* ____________________________________________________________________________ */
+/* now for responsive */
+/* medium screen */
+@media screen and (max-width: 1430) {
+.button {
+	
+}
+}
+
+/* small screen */
+@media screen and (max-width: 767px) {
+	
+}

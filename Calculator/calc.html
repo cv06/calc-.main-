@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cason's Calculator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<div class="results-container">
+			<div id="res-txt">Results: </div>
+			<div id="display"></div>
+			<button class="reset-btn button" id="reset-btn">Reset</button>
+		</div>
+	</header>
+	<div class="descriptions">
+		<p> . &rarr; decimal </p>
+		<p> e &rarr; scientific notation (e = *10^[+value] </p>
+		<p> ** &rarr; define a exponent </p>
+		<p> * &rarr; multiplication </p>
+		<p> / &rarr; division </p>
+		<p> + &rarr; addition </p>
+		<p> - &rarr; subtraction </p>
+	</div>
+
+
+
+	<div class="btn-cont">
+		<div class="num-cont">
+			<div class="button num-btn">1</div>
+			<div class="button num-btn">2</div>
+			<div class="button num-btn">3</div>
+			<br>
+			<div class="button num-btn">4</div>
+			<div class="button num-btn">5</div>
+			<div class="button num-btn">6</div>
+			<br>
+			<div class="button num-btn">7</div>
+			<div class="button num-btn">8</div>
+			<div class="button num-btn">9</div>
+			<br>
+			<div class="button num-btn">(</div>
+			<div class="button num-btn">0</div>
+			<div class="button num-btn">)</div>
+			<br>
+			<div class="button num-btn">.</div>
+			<div class="button num-btn">e</div>
+			<div class="button num-btn">**</div>
+		</div>
+
+		<div class="sign-cont">
+			<div class="button sign-btn" id="del-btn">delete</div>
+			<div class="button sign-btn">+</div>
+			<div class="button sign-btn">-</div>
+			<div class="button sign-btn">/</div>
+			<div class="button sign-btn">*</div>
+			<div id="equal" class="button">=</div>
+		</div>
+
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>
